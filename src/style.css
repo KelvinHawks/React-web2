@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px #ddd;
+    margin: 0 23px 0 23px;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    margin-left: 12px;
+}
+.container{
+    width: 400px;
+    min-height: 500px;
+    margin: auto;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 2px #acabab;
+}
+.footer{
+    background: #acabab;
+    padding: 15px;
+}
